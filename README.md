@@ -1,5 +1,24 @@
 # Transport4 - Client Application
 
+1. Consumers of the API should be able access full REST endpoints for the following actions:
+   
+    - [x] Creating Taco recipes 
+    - [x] Updating Taco recipes
+    - [x] Deleting Taco recipes
+    - [x] Retrieving a list of Taco recipes
+    - [x] Retrieve list of Taco sauces from Spoonacular.com Ingredient API
+    - Post Taco Recipe to Spoonacular.com API and return Recipe Card image
+
+2. Taco recipes consist of the following data:
+    - Recipe Name
+    - Recipe Description
+    - Recipe Instructions
+    - Ingredients:
+        - Taco Shell
+        - Taco Protein(s)
+        - Taco Topping(s)
+        - Taco Sauce(s)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
